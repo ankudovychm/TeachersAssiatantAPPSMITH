@@ -12,7 +12,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tableData"},
         {"key": "primaryColumns.AssignmentID.computedValue"},
         {"key": "primaryColumns.CourseCRN.computedValue"},
         {"key": "primaryColumns.DateAssigned.computedValue"},
@@ -22,7 +21,8 @@
         {"key": "primaryColumns.GradedOn.computedValue"},
         {"key": "primaryColumns.RegradeRequestStatus.computedValue"},
         {"key": "primaryColumns.SubmissionID.computedValue"},
-        {"key": "primaryColumns.TurnedIn.computedValue"}
+        {"key": "primaryColumns.TurnedIn.computedValue"},
+        {"key": "tableData"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 0,
@@ -64,12 +64,12 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713372982347,
+    "columnUpdatedAt": 1713375612703,
     "originalBottomRow": 38,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 138,
-    "widgetName": "Table1",
+    "widgetName": "ungraded_table",
     "defaultPageSize": 0,
     "columnOrder": [
         "CourseCRN",
@@ -85,7 +85,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 37,
+    "bottomRow": 30,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -95,7 +95,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "TurnedIn": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"TurnedIn\"]))}}",
+            "computedValue": "{{ungraded_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"TurnedIn\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "TurnedIn",
@@ -126,7 +126,7 @@
             "verticalAlignment": "CENTER"
         },
         "DateAssigned": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"DateAssigned\"]))}}",
+            "computedValue": "{{ungraded_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"DateAssigned\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "DateAssigned",
@@ -157,7 +157,7 @@
             "verticalAlignment": "CENTER"
         },
         "RegradeRequestStatus": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RegradeRequestStatus\"]))}}",
+            "computedValue": "{{ungraded_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"RegradeRequestStatus\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "RegradeRequestStatus",
@@ -188,7 +188,7 @@
             "verticalAlignment": "CENTER"
         },
         "CourseCRN": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CourseCRN\"]))}}",
+            "computedValue": "{{ungraded_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CourseCRN\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "CourseCRN",
@@ -219,7 +219,7 @@
             "verticalAlignment": "CENTER"
         },
         "GradedBy": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GradedBy\"]))}}",
+            "computedValue": "{{ungraded_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GradedBy\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "GradedBy",
@@ -250,7 +250,7 @@
             "verticalAlignment": "CENTER"
         },
         "AssignmentID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"AssignmentID\"]))}}",
+            "computedValue": "{{ungraded_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"AssignmentID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "AssignmentID",
@@ -281,7 +281,7 @@
             "verticalAlignment": "CENTER"
         },
         "SubmissionID": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"SubmissionID\"]))}}",
+            "computedValue": "{{ungraded_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"SubmissionID\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "SubmissionID",
@@ -312,7 +312,7 @@
             "verticalAlignment": "CENTER"
         },
         "Grade": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Grade\"]))}}",
+            "computedValue": "{{ungraded_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Grade\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "Grade",
@@ -343,7 +343,7 @@
             "verticalAlignment": "CENTER"
         },
         "DueDate": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"DueDate\"]))}}",
+            "computedValue": "{{ungraded_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"DueDate\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "DueDate",
@@ -374,7 +374,7 @@
             "verticalAlignment": "CENTER"
         },
         "GradedOn": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GradedOn\"]))}}",
+            "computedValue": "{{ungraded_table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"GradedOn\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "GradedOn",
@@ -408,7 +408,7 @@
     "key": "32him500gu",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "i7ryjvaoo4",
     "minWidth": 450,
