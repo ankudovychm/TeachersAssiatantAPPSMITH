@@ -3,10 +3,10 @@ SELECT
 FROM
   public.users
 WHERE
-  "gender" ilike '%{{Table1.searchText}}%'
+  "gender" ilike '%{{Grades.searchText}}%'
 ORDER BY
-  "{{Table1.sortOrder.column || 'id'}}" {{Table1.sortOrder.order !== "desc" ? "" : "DESC"}}
+  "{{Grades.sortOrder.column || 'id'}}" {{Grades.sortOrder.order !== "desc" ? "" : "DESC"}}
 LIMIT
-  {{Table1.pageSize}}
+  {{Grades.pageSize}}
 OFFSET
-  {{Table1.pageOffset}}
+  {{Grades.pageOffset}}

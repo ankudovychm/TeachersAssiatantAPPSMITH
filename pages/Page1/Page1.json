@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 880,
+          "bottomRow": 1530,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -29,29 +29,27 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Select_public_users1",
-              "name": "Select_public_users1",
+              "id": "Page1_get_ungraded_submissions",
+              "name": "get_ungraded_submissions",
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.searchText",
-                "Table1.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"",
-                "Table1.sortOrder.column || 'id'",
-                "Table1.pageSize",
-                "Table1.pageOffset"
-              ],
+              "pluginType": "API",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            }
-          ],
-          [
+            },
             {
-              "id": "Page1_Total_record_public_users1",
-              "name": "Total_record_public_users1",
+              "id": "Page1_grades",
+              "name": "grades",
               "confirmBeforeExecute": false,
-              "pluginType": "DB",
-              "jsonPathKeys": [
-                "Table1.searchText"
-              ],
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_officehours",
+              "name": "officehours",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
