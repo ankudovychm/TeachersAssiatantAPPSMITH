@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Hello! Welcome to Data Dorks submission for the CS3200 Final Project ",
+    "text": "Hello! Welcome to Data Dorks submission for the CS3200 Final Project!",
     "key": "gdv3yz7rst",
     "isDeprecated": false,
     "rightColumn": 63,
