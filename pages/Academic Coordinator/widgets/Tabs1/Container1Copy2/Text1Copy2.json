@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 0,
-    "bottomRow": 11,
+    "topRow": 2,
+    "bottomRow": 7,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "As an Academic Coordinator, I would like to be able to gather a list of all emails of students registered for courses by department so that I can reach out to them with timely course registration updates specific to their home college.\n",
+    "text": "As an Academic Coordinator, I would like to be able to enroll students in courses\n",
     "key": "gdv3yz7rst",
     "isDeprecated": false,
     "rightColumn": 30,
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 0,
     "responsiveBehavior": "fill",
-    "originalTopRow": 0,
+    "originalTopRow": 2,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 11,
+    "originalBottomRow": 7,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
