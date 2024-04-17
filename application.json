@@ -19,6 +19,22 @@
     {
       "id": "Academic Coordinator",
       "isDefault": false
+    },
+    {
+      "id": "StudStory2",
+      "isDefault": false
+    },
+    {
+      "id": "StudStory1",
+      "isDefault": false
+    },
+    {
+      "id": "StudStory4",
+      "isDefault": false
+    },
+    {
+      "id": "StudStory3",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Academic Coordinator",
-    "slug": "academic-coordinator",
+    "name": "StudStory4",
+    "slug": "studstory4",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1150,
+          "bottomRow": 380,
           "containerStyle": "none",
-          "snapRows": 64,
+          "snapRows": 80,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 660,
+          "minHeight": 820,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Academic Coordinator",
+        "id": "StudStory4",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -39,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661d5d6db605476ded02cdb8_661f32633eaff20d377e015f"
+  "gitSyncId": "661d5d6db605476ded02cdb8_661f50c83eaff20d377e0188"
 }
