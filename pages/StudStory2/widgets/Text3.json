@@ -31,7 +31,7 @@
     "text": "Looking to submit feedback of your own?",
     "key": "lr1zne1jsj",
     "isDeprecated": false,
-    "rightColumn": 29,
+    "rightColumn": 64,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "0oy29h6pz2",
@@ -54,6 +54,6 @@
     "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 48,
-    "fontSize": "1rem",
+    "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
