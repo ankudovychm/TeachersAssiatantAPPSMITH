@@ -1,14 +1,47 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home",
       "isDefault": true
+    },
+    {
+      "id": "Professor",
+      "isDefault": false
+    },
+    {
+      "id": "Teaching Assistant",
+      "isDefault": false
+    },
+    {
+      "id": "Student",
+      "isDefault": false
+    },
+    {
+      "id": "Academic Coordinator",
+      "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "showNavbar": false,
+      "orientation": "top",
+      "navStyle": "stacked",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "light",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "showSignIn": false
+    }
+  },
   "color": "#FFDEDE",
+  "icon": "book",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
