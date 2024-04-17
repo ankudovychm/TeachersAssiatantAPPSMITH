@@ -35,6 +35,38 @@
     {
       "id": "StudStory3",
       "isDefault": false
+    },
+    {
+      "id": "TAStory4",
+      "isDefault": false
+    },
+    {
+      "id": "TAStory2",
+      "isDefault": false
+    },
+    {
+      "id": "TAStory1",
+      "isDefault": false
+    },
+    {
+      "id": "TAStory3",
+      "isDefault": false
+    },
+    {
+      "id": "ACStory1",
+      "isDefault": false
+    },
+    {
+      "id": "ACStory2",
+      "isDefault": false
+    },
+    {
+      "id": "ACStory3",
+      "isDefault": false
+    },
+    {
+      "id": "ACStory4",
+      "isDefault": false
     }
   ],
   "viewMode": false,
