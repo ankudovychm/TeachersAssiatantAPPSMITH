@@ -10,8 +10,8 @@
         "click",
         "submit"
     ],
-    "topRow": 108,
-    "bottomRow": 115,
+    "topRow": 110,
+    "bottomRow": 117,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
@@ -104,7 +104,7 @@
             "widgetId": "",
             "menuItems": {},
             "index": 0,
-            "label": "Back Home",
+            "label": "Home",
             "id": "groupButton1",
             "placement": "CENTER",
             "isVisible": true,
@@ -156,9 +156,9 @@
     "mobileTopRow": 74,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 108,
+    "originalTopRow": 110,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "originalBottomRow": 115,
+    "originalBottomRow": 117,
     "buttonVariant": "PRIMARY"
 }

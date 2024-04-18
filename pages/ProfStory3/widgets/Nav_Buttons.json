@@ -117,7 +117,7 @@
             "widgetId": "",
             "menuItems": {},
             "index": 0,
-            "label": "Back Home",
+            "label": "Home",
             "id": "groupButton1",
             "placement": "CENTER",
             "isVisible": true,

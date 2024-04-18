@@ -26,7 +26,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Discussion Post \n",
+    "text": "Discussion post \n",
     "key": "bkbuzhy7uv",
     "isDeprecated": false,
     "rightColumn": 19,

@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "TAs Hours Worked",
+    "text": "TA Hours Worked",
     "key": "nccuh8b4q9",
     "isDeprecated": false,
     "rightColumn": 61,
