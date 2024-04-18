@@ -28,7 +28,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Manage Enrollements",
+    "text": "Manage Enrollments",
     "key": "nccuh8b4q9",
     "isDeprecated": false,
     "rightColumn": 63,

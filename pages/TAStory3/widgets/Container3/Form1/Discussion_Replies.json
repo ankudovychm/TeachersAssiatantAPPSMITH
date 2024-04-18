@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 54,
-    "bottomRow": 62,
+    "bottomRow": 58,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 11.265625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 15,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "Discussion Board Replies",
     "key": "bkbuzhy7uv",
     "isDeprecated": false,
-    "rightColumn": 51,
+    "rightColumn": 36,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "m78awmuu0s",
@@ -49,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 37,
     "responsiveBehavior": "fill",
-    "originalTopRow": 33,
+    "originalTopRow": 54,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 24,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 41,
-    "fontSize": "1.875rem",
+    "originalBottomRow": 58,
+    "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }

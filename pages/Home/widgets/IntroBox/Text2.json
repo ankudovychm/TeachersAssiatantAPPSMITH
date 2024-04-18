@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 7,
-    "bottomRow": 16,
+    "topRow": 9,
+    "bottomRow": 18,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -29,7 +29,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "\"Teacher's Assistant\" is a Learning Management Platform designed to be a super app for anything and everything university. \n\nBelow you can explore some test users to see this super app in action!",
+    "text": "\"Teacher's Assistant\" is a Learning Management Platform designed to be a super app for anything and everything university-related.\n\nBelow you can explore some test users to see this super app in action!",
     "key": "gdv3yz7rst",
     "isDeprecated": false,
     "rightColumn": 64,
@@ -50,11 +50,11 @@
     "isLoading": false,
     "mobileTopRow": 8,
     "responsiveBehavior": "fill",
-    "originalTopRow": 7,
+    "originalTopRow": 9,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 13,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 16,
+    "originalBottomRow": 18,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }
