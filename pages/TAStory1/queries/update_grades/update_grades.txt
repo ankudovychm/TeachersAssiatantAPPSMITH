@@ -1,3 +1,0 @@
-{"Grade": {{grade_contentforreview.text}},
- "SubmissionID": {{Grades.selectedRow.SubmissionID}}
-}

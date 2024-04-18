@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/s/enrollementNew/1"
+        "url": "web:4000/e/enrollementNew/1"
       },
       "invalids": [],
       "messages": [],

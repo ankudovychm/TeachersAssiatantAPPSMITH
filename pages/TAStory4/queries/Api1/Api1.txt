@@ -1,3 +1,0 @@
-{"Grade": {{add_grade.text}},
- "SubmissionID": {{ungraded_table.selectedRow.SubmissionID}}
-}

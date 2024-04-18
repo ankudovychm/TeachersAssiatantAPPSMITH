@@ -8,7 +8,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/s/Gradesupdate/1"
+        "url": "web:4000/su/Gradesupdate/1"
       },
       "invalids": [],
       "messages": [],
