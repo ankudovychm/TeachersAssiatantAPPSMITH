@@ -1,0 +1,5 @@
+{
+ "PostID": {{postid_dboard.text}},
+ "EmployeeID": {{employeeid_dboard.text}},
+ "DiscussionPostAnswer": {{reply_content_dboard.text}}
+}
