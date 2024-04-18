@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 19,
+    "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -29,6 +29,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 38,
     "widgetName": "add_grade",
+    "dynamicPropertyPathList": [{"key": "onTextChanged"}],
     "displayName": "Input",
     "searchTags": [
         "form",
@@ -46,8 +47,9 @@
     "labelPosition": "Top",
     "key": "plsa0wtjq9",
     "labelTextSize": "0.875rem",
+    "onTextChanged": "",
     "isDeprecated": false,
-    "rightColumn": 36,
+    "rightColumn": 49,
     "widgetId": "fn6wio4xuv",
     "minWidth": 450,
     "label": "grade ungraded submission",

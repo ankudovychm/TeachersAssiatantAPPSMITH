@@ -1,0 +1,4 @@
+{"Grade": {{add_grade.text}},
+ "SubmissionID": {{Input2.text}},
+ "AssignmentID": {{Input2Copy.text}}
+}

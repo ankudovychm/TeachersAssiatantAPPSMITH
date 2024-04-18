@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "grade_submission",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\"Grade\": {{add_grade.text}},\n \"SubmissionID\": {{ungraded_table.selectedRow.SubmissionID}}\n}",
+      "body": "{\"Grade\": {{add_grade.text}},\n \"SubmissionID\": {{Input2.text}},\n \"AssignmentID\": {{Input2Copy.text}}\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
@@ -53,8 +53,9 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "add_grade.text",
-      "ungraded_table.selectedRow.SubmissionID"
+      "Input2.text",
+      "Input2Copy.text",
+      "add_grade.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
@@ -62,7 +63,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-17T17:48:11Z"
   },
-  "id": "Page1_Api1",
+  "id": "Page1_grade_submission",
   "deleted": false,
   "gitSyncId": "661ee01e476d62265c9b2c69_66200b5b476d62265c9b2ce2"
 }

@@ -6,7 +6,7 @@
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-    "leftColumn": 14,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -29,7 +29,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "needsErrorInfo": false,
     "mobileBottomRow": 38,
-    "widgetName": "Input2",
+    "widgetName": "Input2Copy",
     "displayName": "Input",
     "searchTags": [
         "form",
@@ -48,10 +48,10 @@
     "key": "plsa0wtjq9",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-    "rightColumn": 31,
-    "widgetId": "9xndd5kdt3",
+    "rightColumn": 14,
+    "widgetId": "0kl1k8xrjm",
     "minWidth": 450,
-    "label": "Selected SubmissionID",
+    "label": "Selected AssignmentID",
     "parentId": "2ivb7brpy2",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
@@ -60,6 +60,6 @@
     "mobileLeftColumn": 0,
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{ungraded_table.selectedRow.SubmissionID\n}}",
+    "defaultText": "{{ungraded_table.selectedRow.AssignmentID\n}}",
     "minDynamicHeight": 4
 }

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1490,
+          "bottomRow": 2610,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -28,6 +28,22 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "Page1_get_dBoard_content",
+              "name": "get_dBoard_content",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Page1_get_db_replies",
+              "name": "get_db_replies",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "Page1_get_ungraded_submissions",
               "name": "get_ungraded_submissions",
