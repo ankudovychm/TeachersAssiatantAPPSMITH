@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 410,
+          "bottomRow": 1700,
           "containerStyle": "none",
           "snapRows": 73,
           "parentRowSpace": 1,
@@ -25,7 +25,26 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "ACStory4_Enrollements",
+              "name": "Enrollements",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "ACStory4_Students",
+              "name": "Students",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "ACStory4",
@@ -39,5 +58,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661d5d6db605476ded02cdb8_66203ab93eaff20d377e0216"
+  "gitSyncId": "661d5d6db605476ded02cdb8_66207a103eaff20d377e0274"
 }

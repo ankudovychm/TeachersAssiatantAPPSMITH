@@ -67,6 +67,22 @@
     {
       "id": "ACStory4",
       "isDefault": false
+    },
+    {
+      "id": "ProfStory1",
+      "isDefault": false
+    },
+    {
+      "id": "ProfStory2",
+      "isDefault": false
+    },
+    {
+      "id": "ProfStory3",
+      "isDefault": false
+    },
+    {
+      "id": "ProfStory4",
+      "isDefault": false
     }
   ],
   "viewMode": false,
