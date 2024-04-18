@@ -10,15 +10,15 @@
         "click",
         "submit"
     ],
-    "topRow": 34,
-    "bottomRow": 41,
+    "topRow": 163,
+    "bottomRow": 170,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButtonuylewggr8o": {
             "itemType": "BUTTON",
             "onClick": "{{navigateTo('ACStory1', {}, 'SAME_WINDOW');}}",
-            "buttonColor": "#e0dede",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "x8n7cnfbpg",
             "menuItems": {},
             "index": 2,
@@ -33,7 +33,7 @@
         "groupButton4stnhfyzja": {
             "itemType": "BUTTON",
             "onClick": "{{navigateTo('ACStory4', {}, 'SAME_WINDOW');}}",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "buttonColor": "#e0dede",
             "widgetId": "yv8pw71n7u",
             "menuItems": {},
             "index": 5,
@@ -149,16 +149,16 @@
         {"key": "groupButtons.groupButtonuylewggr8o.onClick"},
         {"key": "groupButtons.groupButton4stnhfyzja.onClick"}
     ],
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
-        {"key": "groupButtons.groupButton4stnhfyzja.buttonColor"}
+        {"key": "groupButtons.groupButtonuylewggr8o.buttonColor"}
     ],
     "key": "h3krn20h15",
     "orientation": "horizontal",
     "isDeprecated": false,
     "rightColumn": 64,
-    "widgetId": "6gfr6t4536",
+    "widgetId": "0eaedxnooj",
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
@@ -169,9 +169,9 @@
     "mobileTopRow": 74,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 34,
+    "originalTopRow": 163,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "originalBottomRow": 41,
+    "originalBottomRow": 170,
     "buttonVariant": "PRIMARY"
 }

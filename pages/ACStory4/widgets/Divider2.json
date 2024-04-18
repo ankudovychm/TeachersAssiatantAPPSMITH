@@ -6,8 +6,8 @@
     "displayName": "Divider",
     "iconSVG": "/static/media/icon.3b7d47d7bd70da418a827287042cbb7f.svg",
     "searchTags": ["line"],
-    "topRow": 30,
-    "bottomRow": 34,
+    "topRow": 159,
+    "bottomRow": 163,
     "parentRowSpace": 10,
     "type": "DIVIDER_WIDGET",
     "capType": "nc",
@@ -15,7 +15,7 @@
     "mobileRightColumn": 19,
     "animateLoading": true,
     "parentColumnSpace": 16.046875,
-    "leftColumn": 0,
+    "leftColumn": 1,
     "dynamicBindingPathList": [],
     "key": "34qqkxy8dg",
     "dividerColor": "#858282",
@@ -23,7 +23,7 @@
     "strokeStyle": "solid",
     "isDeprecated": false,
     "rightColumn": 64,
-    "widgetId": "r8gp00cof5",
+    "widgetId": "p8atjdtsl2",
     "capSide": 0,
     "minWidth": 450,
     "isVisible": true,
@@ -34,7 +34,7 @@
     "isLoading": false,
     "mobileTopRow": 95,
     "responsiveBehavior": "fill",
-    "originalTopRow": 30,
+    "originalTopRow": 159,
     "mobileLeftColumn": 0,
-    "originalBottomRow": 34
+    "originalBottomRow": 163
 }
