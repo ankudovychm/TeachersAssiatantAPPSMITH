@@ -10,8 +10,8 @@
         "click",
         "submit"
     ],
-    "topRow": 34,
-    "bottomRow": 41,
+    "topRow": 127,
+    "bottomRow": 134,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
@@ -157,7 +157,7 @@
     "key": "h3krn20h15",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "widgetId": "bwlvqsft8u",
     "minWidth": 450,
     "isVisible": true,
@@ -169,9 +169,9 @@
     "mobileTopRow": 74,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 42,
+    "originalTopRow": 125,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 0,
-    "originalBottomRow": 49,
+    "originalBottomRow": 132,
     "buttonVariant": "PRIMARY"
 }
